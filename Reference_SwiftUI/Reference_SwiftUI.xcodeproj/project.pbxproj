@@ -11,6 +11,7 @@
 		1141D4C62C43BB5A00936FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141D4C52C43BB5A00936FA0 /* ContentView.swift */; };
 		1141D4C82C43BB5B00936FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1141D4C72C43BB5B00936FA0 /* Assets.xcassets */; };
 		1141D4CB2C43BB5B00936FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1141D4CA2C43BB5B00936FA0 /* Preview Assets.xcassets */; };
+		1141D4D42C43BBB500936FA0 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141D4D32C43BBB500936FA0 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1141D4C52C43BB5A00936FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1141D4C72C43BB5B00936FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1141D4CA2C43BB5B00936FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1141D4D32C43BBB500936FA0 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1141D4C22C43BB5A00936FA0 /* Reference_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1141D4D12C43BB9400936FA0 /* Core */,
 				1141D4C32C43BB5A00936FA0 /* Reference_SwiftUIApp.swift */,
 				1141D4C52C43BB5A00936FA0 /* ContentView.swift */,
 				1141D4C72C43BB5B00936FA0 /* Assets.xcassets */,
@@ -65,6 +68,22 @@
 				1141D4CA2C43BB5B00936FA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1141D4D12C43BB9400936FA0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1141D4D22C43BB9800936FA0 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1141D4D22C43BB9800936FA0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1141D4D32C43BBB500936FA0 /* Date+Extensions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				1141D4C62C43BB5A00936FA0 /* ContentView.swift in Sources */,
 				1141D4C42C43BB5A00936FA0 /* Reference_SwiftUIApp.swift in Sources */,
+				1141D4D42C43BBB500936FA0 /* Date+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
