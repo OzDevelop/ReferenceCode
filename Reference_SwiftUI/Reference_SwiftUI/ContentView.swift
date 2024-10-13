@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Button {
                 print(Date.now.basic)
+                print(10000000.toStringWithComma())
+                print("01011112222".withHypen)
             } label: {
                 Text("Date")
                     

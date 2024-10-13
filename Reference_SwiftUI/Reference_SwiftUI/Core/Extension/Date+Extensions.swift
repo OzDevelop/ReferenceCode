@@ -63,6 +63,7 @@ extension DateFormatter {
   }
 }
 
+// 한국을 기준으로 지역과 시간대 설정
 private func createKoKRFormatter() -> DateFormatter {
   let dateFormatter = DateFormatter()
   dateFormatter.locale = Locale(identifier: "ko_KR")
