@@ -10,10 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button {
+                print(Date.now.basic)
+            } label: {
+                Text("Date")
+                    
+            }
+            .buttonStyle(.bordered)
+            
+//            Button {
+//                print(yesterday)
+//            } label: {
+//                Text("yesterday Date")
+//            }
+//            .buttonStyle(.bordered)
         }
         .padding()
     }
